@@ -26,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D03D67D817E11A0500FFE211 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 		D0EF2667157910C500A82573 /* Files */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Files; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EF266B157910C500A82573 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D0EF266E157910C500A82573 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		D0EF265C157910C500A82573 = {
 			isa = PBXGroup;
 			children = (
+				D03D67D817E11A0500FFE211 /* readme.txt */,
 				D0EF2679157910DC00A82573 /* ReadMe.rtf */,
 				D0EF266D157910C500A82573 /* Files */,
 				D0EF266A157910C500A82573 /* Frameworks */,
