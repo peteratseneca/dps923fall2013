@@ -1,0 +1,40 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww17640\viewh13800\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs28 \cf0 \
+This is the "App Struct" example app. \
+\
+It was originally created for iOS 5.1, using Xcode 4.3, in June 2012.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf0 The purpose of this app, which is the first iOS app we create in the course, is to show you the structure of a typical iOS "Single View Application". \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 \
+If you intend to re-create this app (and you should!), do the following:\
+1. In Xcode, File > New > New Project \
+2. On the left-side navigator, select iOS > Application, and in the right-side detail area, select "Single View Application" \
+3. Fill in the following details:\
+	Enter a project name in the "Product Name" textbox; \
+	enter something in the "Company Identifier" textbox, ONLY IF IT'S EMPTY!; \
+	choose iPhone on the "Device Family" drop-down list; and\
+	leave all checkboxes at their defaults (Storyboard and Automatic Reference Counting checked, and Unit Tests un-checked) \
+4. Choose a folder / storage location, and un-check (clear) the "Source Control" checkbox\
+\
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf0 The entry point of the app is the "main.m" source code file, which is in the [project name] > Supporting Files group. The main() function is the first to be executed. \
+\
+It loads the storyboard file, which contains the app's user interface. It identifies the "application delegate" and the "initial view controller".\
+\
+Objective-C source code files are split into a .h "interface", and a .m "implementation". Declarations (of instance variables, properties, and methods) are coded in the .h interface file, and the implemented in the .m implementation file.\
+\
+The AppDelegate code is loaded by the storyboard. The purpose of the (singleton) app delegate is to initialize the app, and provide methods which can be called at any time, by other modules and/or the Cocoa runtime, during the app's lifetime. \
+\
+The ViewController code is also loaded by the storyboard. The purpose of a view controller is to provide the logic for a view, which is a screenful of content in an iOS app. Its methods are called by user interaction, and/or the Cocoa runtime as it responds to events in the environment.\
+\
+Using the storyboard, a "label" (UILabel) was added to the view, and some static text was entered. Then, on the Size Inspector panel (on the right-side utility area), the top and left anchors were toggle-clicked to turn them off. This enables the content to remain centered as the device is rotated left and right.\
+}
