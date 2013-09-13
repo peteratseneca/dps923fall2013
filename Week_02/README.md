@@ -26,3 +26,12 @@
 - use a UITextView multi-line text area
 - learn keyboard handling in a text view
 - save/persist data
+
+**Array**
+- simple array
+
+**Array To Do**
+- array as a model object
+
+**Dictionary**
+- simple dictionary (hash table)
