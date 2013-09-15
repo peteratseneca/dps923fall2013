@@ -1,0 +1,47 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf350
+{\fonttbl\f0\fnil\fcharset0 Monaco;\f1\fmodern\fcharset0 Courier;\f2\fmodern\fcharset0 Courier-Bold;
+}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 \
+This is the "Events 1" example app. \
+\
+Built for Latest iOS.\
+\
+Its purpose is to show the sequence of events that happen during the startup and shut down of a View-based iOS app. There will be future "Events" example apps, as we add more functionality and user interface features. \
+\
+This app will help you answer questions about the "best" or "right" place to write initialization code for your app. \
+\
+The excerpt below is the console log output from a sample run of the app. Note that the last method that is called is "applicationDidEnterBackground:". This is the default on iOS 4. You should implement this method, so that user state and other data gets saved.\
+\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\li560\fi-560\ql\qnatural\pardirnatural
+
+\f1\fs24 \cf0 \CocoaLigature0 [Session started at 2011-01-14 09:44:07 -0500.]\
+
+\f2\b 2011-01-14 09:44:12.806 Events 1[17830:207] \
+-[Events_1ViewController awakeFromNib]\
+2011-01-14 09:44:12.808 Events 1[17830:207] \
+-[Events_1AppDelegate application:didFinishLaunchingWithOptions:]\
+2011-01-14 09:44:13.006 Events 1[17830:207] \
+-[Events_1ViewController viewDidLoad]\
+2011-01-14 09:44:13.007 Events 1[17830:207] \
+-[Events_1ViewController viewWillAppear:]\
+2011-01-14 09:44:13.008 Events 1[17830:207] \
+-[Events_1ViewController viewDidAppear:]\
+2011-01-14 09:44:13.010 Events 1[17830:207] \
+-[Events_1AppDelegate applicationDidBecomeActive:]\
+2011-01-14 09:44:14.804 Events 1[17830:207] \
+-[Events_1AppDelegate applicationWillResignActive:]\
+2011-01-14 09:44:14.807 Events 1[17830:207] \
+-[Events_1AppDelegate applicationDidEnterBackground:]\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\b0\fs28 \cf0 \CocoaLigature1 \
+Note: In versions of iOS before 4, you would implement the applicationWillTerminate: method to save user state and other data. If your app runs on a device that does not support multitasking, this method still gets called. Alternatively, if you do not want your app to participate in the multitasking scheme, then you can create an <appname>-Info.plist key "Application does not run in background", and set its value to YES. In either single-tasking scheme, the last call becomes the following:\
+\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\li560\fi-560\ql\qnatural\pardirnatural
+
+\f2\b\fs24 \cf0 \CocoaLigature0 2010-09-19 10:47:58.627 Events 1[31202:207] \
+App delegate - applicationWillTerminate:\
+}
