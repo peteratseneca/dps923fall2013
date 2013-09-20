@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D014879017EC742300A5FBFD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D014878D17EC742300A5FBFD /* Default-568h@2x.png */; };
+		D014879117EC742300A5FBFD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D014878E17EC742300A5FBFD /* Default.png */; };
+		D014879217EC742300A5FBFD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D014878F17EC742300A5FBFD /* Default@2x.png */; };
+		D014879417EC743E00A5FBFD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D014879317EC743E00A5FBFD /* Icon.png */; };
+		D0ED60B1158B4F84009868F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0ED60B0158B4F84009868F1 /* UIKit.framework */; };
+		D0ED60B3158B4F84009868F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0ED60B2158B4F84009868F1 /* Foundation.framework */; };
+		D0ED60B5158B4F84009868F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0ED60B4158B4F84009868F1 /* CoreGraphics.framework */; };
+		D0ED60BB158B4F84009868F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0ED60B9158B4F84009868F1 /* InfoPlist.strings */; };
+		D0ED60BD158B4F84009868F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ED60BC158B4F84009868F1 /* main.m */; };
+		D0ED60C1158B4F84009868F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ED60C0158B4F84009868F1 /* AppDelegate.m */; };
+		D0ED60C4158B4F84009868F1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0ED60C2158B4F84009868F1 /* MainStoryboard.storyboard */; };
+		D0ED60CE158B4FA0009868F1 /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D0ED60CD158B4FA0009868F1 /* ReadMe.rtf */; };
+		D0ED60D1158B515E009868F1 /* TeamList.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ED60D0158B515E009868F1 /* TeamList.m */; };
+		D0ED60D4158B527D009868F1 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ED60D3158B527D009868F1 /* Model.m */; };
+		D0ED60E6158B5A41009868F1 /* Baltimore Ravens.png in Resources */ = {isa = PBXBuildFile; fileRef = D0ED60D6158B5A41009868F1 /* Baltimore Ravens.png */; };
+		D0ED60E7158B5A41009868F1 /* Buffalo Bills.png in Resources */ = {isa = PBXBuildFile; fileRef = D0ED60D7158B5A41009868F1 /* Buffalo Bills.png */; };
+		D0ED60E8158B5A41009868F1 /* Cincinnati Bengals.png in Resources */ = {isa = PBXBuildFile; fileRef = D0ED60D8158B5A41009868F1 /* Cincinnati Bengals.png */; };
+		D0ED60E9158B5A41009868F1 /* Cleveland Browns.png in Resources */ = {isa = PBXBuildFile; fileRef = D0ED60D9158B5A41009868F1 /* Cleveland Browns.png */; };
+		D0ED60EA158B5A41009868F1 /* Denver Broncos.png in Resources */ = {isa = PBXBuildFile; fileRef = D0ED60DA158B5A41009868F1 /* Denver Broncos.png */; };
+		D0ED60EB158B5A41009868F1 /* Houston Texans.png in Resources */ = {isa = PBXBuildFile; fileRef = D0ED60DB158B5A41009868F1 /* Houston Texans.png */; };
+		D0ED60EC158B5A41009868F1 /* Indianapolis Colts.png in Resources */ = {isa = PBXBuildFile; fileRef = D0ED60DC158B5A41009868F1 /* Indianapolis Colts.png */; };
+		D0ED60ED158B5A41009868F1 /* Jacksonville Jaguars.png in Resources */ = {isa = PBXBuildFile; fileRef = D0ED60DD158B5A41009868F1 /* Jacksonville Jaguars.png */; };
+		D0ED60EE158B5A41009868F1 /* Kansas City Chiefs.png in Resources */ = {isa = PBXBuildFile; fileRef = D0ED60DE158B5A41009868F1 /* Kansas City Chiefs.png */; };
+		D0ED60EF158B5A41009868F1 /* Miami Dolphins.png in Resources */ = {isa = PBXBuildFile; fileRef = D0ED60DF158B5A41009868F1 /* Miami Dolphins.png */; };
+		D0ED60F0158B5A41009868F1 /* New England Patriots.png in Resources */ = {isa = PBXBuildFile; fileRef = D0ED60E0158B5A41009868F1 /* New England Patriots.png */; };
+		D0ED60F1158B5A41009868F1 /* New York Jets.png in Resources */ = {isa = PBXBuildFile; fileRef = D0ED60E1158B5A41009868F1 /* New York Jets.png */; };
+		D0ED60F2158B5A41009868F1 /* Oakland Raiders.png in Resources */ = {isa = PBXBuildFile; fileRef = D0ED60E2158B5A41009868F1 /* Oakland Raiders.png */; };
+		D0ED60F3158B5A41009868F1 /* Pittsburgh Steelers.png in Resources */ = {isa = PBXBuildFile; fileRef = D0ED60E3158B5A41009868F1 /* Pittsburgh Steelers.png */; };
+		D0ED60F4158B5A41009868F1 /* San Diego Chargers.png in Resources */ = {isa = PBXBuildFile; fileRef = D0ED60E4158B5A41009868F1 /* San Diego Chargers.png */; };
+		D0ED60F5158B5A41009868F1 /* Tennessee Titans.png in Resources */ = {isa = PBXBuildFile; fileRef = D0ED60E5158B5A41009868F1 /* Tennessee Titans.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D014878D17EC742300A5FBFD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D014878E17EC742300A5FBFD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D014878F17EC742300A5FBFD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D014879317EC743E00A5FBFD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D0ED60AC158B4F84009868F1 /* Table Save.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table Save.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0ED60B0158B4F84009868F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0ED60B2158B4F84009868F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0ED60B4158B4F84009868F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0ED60B8158B4F84009868F1 /* Table Save-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Table Save-Info.plist"; sourceTree = "<group>"; };
+		D0ED60BA158B4F84009868F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0ED60BC158B4F84009868F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0ED60BE158B4F84009868F1 /* Table Save-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Table Save-Prefix.pch"; sourceTree = "<group>"; };
+		D0ED60BF158B4F84009868F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0ED60C0158B4F84009868F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0ED60C3158B4F84009868F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D0ED60CD158B4FA0009868F1 /* ReadMe.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
+		D0ED60CF158B515E009868F1 /* TeamList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamList.h; sourceTree = "<group>"; };
+		D0ED60D0158B515E009868F1 /* TeamList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamList.m; sourceTree = "<group>"; };
+		D0ED60D2158B527D009868F1 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		D0ED60D3158B527D009868F1 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		D0ED60D6158B5A41009868F1 /* Baltimore Ravens.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Baltimore Ravens.png"; sourceTree = "<group>"; };
+		D0ED60D7158B5A41009868F1 /* Buffalo Bills.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Buffalo Bills.png"; sourceTree = "<group>"; };
+		D0ED60D8158B5A41009868F1 /* Cincinnati Bengals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cincinnati Bengals.png"; sourceTree = "<group>"; };
+		D0ED60D9158B5A41009868F1 /* Cleveland Browns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cleveland Browns.png"; sourceTree = "<group>"; };
+		D0ED60DA158B5A41009868F1 /* Denver Broncos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Denver Broncos.png"; sourceTree = "<group>"; };
+		D0ED60DB158B5A41009868F1 /* Houston Texans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Houston Texans.png"; sourceTree = "<group>"; };
+		D0ED60DC158B5A41009868F1 /* Indianapolis Colts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indianapolis Colts.png"; sourceTree = "<group>"; };
+		D0ED60DD158B5A41009868F1 /* Jacksonville Jaguars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jacksonville Jaguars.png"; sourceTree = "<group>"; };
+		D0ED60DE158B5A41009868F1 /* Kansas City Chiefs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kansas City Chiefs.png"; sourceTree = "<group>"; };
+		D0ED60DF158B5A41009868F1 /* Miami Dolphins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Miami Dolphins.png"; sourceTree = "<group>"; };
+		D0ED60E0158B5A41009868F1 /* New England Patriots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "New England Patriots.png"; sourceTree = "<group>"; };
+		D0ED60E1158B5A41009868F1 /* New York Jets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "New York Jets.png"; sourceTree = "<group>"; };
+		D0ED60E2158B5A41009868F1 /* Oakland Raiders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oakland Raiders.png"; sourceTree = "<group>"; };
+		D0ED60E3158B5A41009868F1 /* Pittsburgh Steelers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pittsburgh Steelers.png"; sourceTree = "<group>"; };
+		D0ED60E4158B5A41009868F1 /* San Diego Chargers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "San Diego Chargers.png"; sourceTree = "<group>"; };
+		D0ED60E5158B5A41009868F1 /* Tennessee Titans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tennessee Titans.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0ED60A9158B4F84009868F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0ED60B1158B4F84009868F1 /* UIKit.framework in Frameworks */,
+				D0ED60B3158B4F84009868F1 /* Foundation.framework in Frameworks */,
+				D0ED60B5158B4F84009868F1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0ED60A1158B4F84009868F1 = {
+			isa = PBXGroup;
+			children = (
+				D014879317EC743E00A5FBFD /* Icon.png */,
+				D0ED60CD158B4FA0009868F1 /* ReadMe.rtf */,
+				D0ED60B6158B4F84009868F1 /* Table Save */,
+				D0ED60AF158B4F84009868F1 /* Frameworks */,
+				D0ED60AD158B4F84009868F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0ED60AD158B4F84009868F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0ED60AC158B4F84009868F1 /* Table Save.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0ED60AF158B4F84009868F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0ED60B0158B4F84009868F1 /* UIKit.framework */,
+				D0ED60B2158B4F84009868F1 /* Foundation.framework */,
+				D0ED60B4158B4F84009868F1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0ED60B6158B4F84009868F1 /* Table Save */ = {
+			isa = PBXGroup;
+			children = (
+				D0ED60BF158B4F84009868F1 /* AppDelegate.h */,
+				D0ED60C0158B4F84009868F1 /* AppDelegate.m */,
+				D0ED60C2158B4F84009868F1 /* MainStoryboard.storyboard */,
+				D0ED60B7158B4F84009868F1 /* Supporting Files */,
+				D0ED60CF158B515E009868F1 /* TeamList.h */,
+				D0ED60D0158B515E009868F1 /* TeamList.m */,
+				D0ED60D2158B527D009868F1 /* Model.h */,
+				D0ED60D3158B527D009868F1 /* Model.m */,
+			);
+			path = "Table Save";
+			sourceTree = "<group>";
+		};
+		D0ED60B7158B4F84009868F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D014878D17EC742300A5FBFD /* Default-568h@2x.png */,
+				D014878E17EC742300A5FBFD /* Default.png */,
+				D014878F17EC742300A5FBFD /* Default@2x.png */,
+				D0ED60D5158B5A41009868F1 /* logos */,
+				D0ED60B8158B4F84009868F1 /* Table Save-Info.plist */,
+				D0ED60B9158B4F84009868F1 /* InfoPlist.strings */,
+				D0ED60BC158B4F84009868F1 /* main.m */,
+				D0ED60BE158B4F84009868F1 /* Table Save-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0ED60D5158B5A41009868F1 /* logos */ = {
+			isa = PBXGroup;
+			children = (
+				D0ED60D6158B5A41009868F1 /* Baltimore Ravens.png */,
+				D0ED60D7158B5A41009868F1 /* Buffalo Bills.png */,
+				D0ED60D8158B5A41009868F1 /* Cincinnati Bengals.png */,
+				D0ED60D9158B5A41009868F1 /* Cleveland Browns.png */,
+				D0ED60DA158B5A41009868F1 /* Denver Broncos.png */,
+				D0ED60DB158B5A41009868F1 /* Houston Texans.png */,
+				D0ED60DC158B5A41009868F1 /* Indianapolis Colts.png */,
+				D0ED60DD158B5A41009868F1 /* Jacksonville Jaguars.png */,
+				D0ED60DE158B5A41009868F1 /* Kansas City Chiefs.png */,
+				D0ED60DF158B5A41009868F1 /* Miami Dolphins.png */,
+				D0ED60E0158B5A41009868F1 /* New England Patriots.png */,
+				D0ED60E1158B5A41009868F1 /* New York Jets.png */,
+				D0ED60E2158B5A41009868F1 /* Oakland Raiders.png */,
+				D0ED60E3158B5A41009868F1 /* Pittsburgh Steelers.png */,
+				D0ED60E4158B5A41009868F1 /* San Diego Chargers.png */,
+				D0ED60E5158B5A41009868F1 /* Tennessee Titans.png */,
+			);
+			path = logos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0ED60AB158B4F84009868F1 /* Table Save */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0ED60CA158B4F84009868F1 /* Build configuration list for PBXNativeTarget "Table Save" */;
+			buildPhases = (
+				D0ED60A8158B4F84009868F1 /* Sources */,
+				D0ED60A9158B4F84009868F1 /* Frameworks */,
+				D0ED60AA158B4F84009868F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Table Save";
+			productName = "Table Save";
+			productReference = D0ED60AC158B4F84009868F1 /* Table Save.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0ED60A3158B4F84009868F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Seneca College";
+			};
+			buildConfigurationList = D0ED60A6158B4F84009868F1 /* Build configuration list for PBXProject "Table Save" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0ED60A1158B4F84009868F1;
+			productRefGroup = D0ED60AD158B4F84009868F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0ED60AB158B4F84009868F1 /* Table Save */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0ED60AA158B4F84009868F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0ED60BB158B4F84009868F1 /* InfoPlist.strings in Resources */,
+				D0ED60C4158B4F84009868F1 /* MainStoryboard.storyboard in Resources */,
+				D0ED60CE158B4FA0009868F1 /* ReadMe.rtf in Resources */,
+				D0ED60E6158B5A41009868F1 /* Baltimore Ravens.png in Resources */,
+				D0ED60E7158B5A41009868F1 /* Buffalo Bills.png in Resources */,
+				D0ED60E8158B5A41009868F1 /* Cincinnati Bengals.png in Resources */,
+				D0ED60E9158B5A41009868F1 /* Cleveland Browns.png in Resources */,
+				D0ED60EA158B5A41009868F1 /* Denver Broncos.png in Resources */,
+				D0ED60EB158B5A41009868F1 /* Houston Texans.png in Resources */,
+				D0ED60EC158B5A41009868F1 /* Indianapolis Colts.png in Resources */,
+				D0ED60ED158B5A41009868F1 /* Jacksonville Jaguars.png in Resources */,
+				D0ED60EE158B5A41009868F1 /* Kansas City Chiefs.png in Resources */,
+				D0ED60EF158B5A41009868F1 /* Miami Dolphins.png in Resources */,
+				D0ED60F0158B5A41009868F1 /* New England Patriots.png in Resources */,
+				D0ED60F1158B5A41009868F1 /* New York Jets.png in Resources */,
+				D0ED60F2158B5A41009868F1 /* Oakland Raiders.png in Resources */,
+				D0ED60F3158B5A41009868F1 /* Pittsburgh Steelers.png in Resources */,
+				D0ED60F4158B5A41009868F1 /* San Diego Chargers.png in Resources */,
+				D0ED60F5158B5A41009868F1 /* Tennessee Titans.png in Resources */,
+				D014879017EC742300A5FBFD /* Default-568h@2x.png in Resources */,
+				D014879117EC742300A5FBFD /* Default.png in Resources */,
+				D014879217EC742300A5FBFD /* Default@2x.png in Resources */,
+				D014879417EC743E00A5FBFD /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0ED60A8158B4F84009868F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0ED60BD158B4F84009868F1 /* main.m in Sources */,
+				D0ED60C1158B4F84009868F1 /* AppDelegate.m in Sources */,
+				D0ED60D1158B515E009868F1 /* TeamList.m in Sources */,
+				D0ED60D4158B527D009868F1 /* Model.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0ED60B9158B4F84009868F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0ED60BA158B4F84009868F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0ED60C2158B4F84009868F1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0ED60C3158B4F84009868F1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0ED60C8158B4F84009868F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0ED60C9158B4F84009868F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0ED60CB158B4F84009868F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Table Save/Table Save-Prefix.pch";
+				INFOPLIST_FILE = "Table Save/Table Save-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0ED60CC158B4F84009868F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Table Save/Table Save-Prefix.pch";
+				INFOPLIST_FILE = "Table Save/Table Save-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0ED60A6158B4F84009868F1 /* Build configuration list for PBXProject "Table Save" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0ED60C8158B4F84009868F1 /* Debug */,
+				D0ED60C9158B4F84009868F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0ED60CA158B4F84009868F1 /* Build configuration list for PBXNativeTarget "Table Save" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0ED60CB158B4F84009868F1 /* Debug */,
+				D0ED60CC158B4F84009868F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0ED60A3158B4F84009868F1 /* Project object */;
+}
