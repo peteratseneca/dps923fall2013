@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D02A5EFF1578F380000B7E0B /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D02A5EF71578F380000B7E0B /* Blue.png */; };
+		D02A5F001578F380000B7E0B /* Brown.png in Resources */ = {isa = PBXBuildFile; fileRef = D02A5EF81578F380000B7E0B /* Brown.png */; };
+		D02A5F011578F380000B7E0B /* Gray.png in Resources */ = {isa = PBXBuildFile; fileRef = D02A5EF91578F380000B7E0B /* Gray.png */; };
+		D02A5F021578F380000B7E0B /* Green.png in Resources */ = {isa = PBXBuildFile; fileRef = D02A5EFA1578F380000B7E0B /* Green.png */; };
+		D02A5F031578F380000B7E0B /* Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = D02A5EFB1578F380000B7E0B /* Orange.png */; };
+		D02A5F041578F380000B7E0B /* Purple.png in Resources */ = {isa = PBXBuildFile; fileRef = D02A5EFC1578F380000B7E0B /* Purple.png */; };
+		D02A5F051578F380000B7E0B /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = D02A5EFD1578F380000B7E0B /* Red.png */; };
+		D02A5F061578F380000B7E0B /* Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = D02A5EFE1578F380000B7E0B /* Yellow.png */; };
+		D02A5F191578F637000B7E0B /* ColorsDict.plist in Resources */ = {isa = PBXBuildFile; fileRef = D02A5F181578F637000B7E0B /* ColorsDict.plist */; };
+		D02DA94D17EF4E9200F43BDA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D02DA94A17EF4E9200F43BDA /* Default-568h@2x.png */; };
+		D02DA94E17EF4E9200F43BDA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D02DA94B17EF4E9200F43BDA /* Default.png */; };
+		D02DA94F17EF4E9200F43BDA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D02DA94C17EF4E9200F43BDA /* Default@2x.png */; };
+		D02DA95117EF4EAD00F43BDA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D02DA95017EF4EAD00F43BDA /* Icon.png */; };
+		D078E6871578EF8B0041441A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D078E6861578EF8B0041441A /* UIKit.framework */; };
+		D078E6891578EF8B0041441A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D078E6881578EF8B0041441A /* Foundation.framework */; };
+		D078E68B1578EF8B0041441A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D078E68A1578EF8B0041441A /* CoreGraphics.framework */; };
+		D078E6911578EF8B0041441A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D078E68F1578EF8B0041441A /* InfoPlist.strings */; };
+		D078E6931578EF8B0041441A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D078E6921578EF8B0041441A /* main.m */; };
+		D078E6971578EF8B0041441A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D078E6961578EF8B0041441A /* AppDelegate.m */; };
+		D078E6CD1578F0750041441A /* ColorList.m in Sources */ = {isa = PBXBuildFile; fileRef = D078E6CC1578F0750041441A /* ColorList.m */; };
+		D078E6D01578F0880041441A /* ColorDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = D078E6CF1578F0880041441A /* ColorDetail.m */; };
+		D086E9F9157906640041C69F /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = D086E9F8157906640041C69F /* Model.m */; };
+		D0DAEBAD1590AA0200B92491 /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D0DAEBAC1590AA0200B92491 /* ReadMe.rtf */; };
+		D0EF26391579086000A82573 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D078E6981578EF8B0041441A /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D02A5EF71578F380000B7E0B /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
+		D02A5EF81578F380000B7E0B /* Brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brown.png; sourceTree = "<group>"; };
+		D02A5EF91578F380000B7E0B /* Gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gray.png; sourceTree = "<group>"; };
+		D02A5EFA1578F380000B7E0B /* Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green.png; sourceTree = "<group>"; };
+		D02A5EFB1578F380000B7E0B /* Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orange.png; sourceTree = "<group>"; };
+		D02A5EFC1578F380000B7E0B /* Purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Purple.png; sourceTree = "<group>"; };
+		D02A5EFD1578F380000B7E0B /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red.png; sourceTree = "<group>"; };
+		D02A5EFE1578F380000B7E0B /* Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yellow.png; sourceTree = "<group>"; };
+		D02A5F181578F637000B7E0B /* ColorsDict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ColorsDict.plist; sourceTree = "<group>"; };
+		D02DA94A17EF4E9200F43BDA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D02DA94B17EF4E9200F43BDA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D02DA94C17EF4E9200F43BDA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D02DA95017EF4EAD00F43BDA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D078E6821578EF8B0041441A /* Nav Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nav Colors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D078E6861578EF8B0041441A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D078E6881578EF8B0041441A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D078E68A1578EF8B0041441A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D078E68E1578EF8B0041441A /* Nav Colors-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nav Colors-Info.plist"; sourceTree = "<group>"; };
+		D078E6901578EF8B0041441A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D078E6921578EF8B0041441A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D078E6941578EF8B0041441A /* Nav Colors-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nav Colors-Prefix.pch"; sourceTree = "<group>"; };
+		D078E6951578EF8B0041441A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D078E6961578EF8B0041441A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D078E6991578EF8B0041441A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D078E6CB1578F0750041441A /* ColorList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorList.h; sourceTree = "<group>"; };
+		D078E6CC1578F0750041441A /* ColorList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorList.m; sourceTree = "<group>"; };
+		D078E6CE1578F0880041441A /* ColorDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorDetail.h; sourceTree = "<group>"; };
+		D078E6CF1578F0880041441A /* ColorDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorDetail.m; sourceTree = "<group>"; };
+		D086E9F7157906640041C69F /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		D086E9F8157906640041C69F /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		D0DAEBAC1590AA0200B92491 /* ReadMe.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D078E67F1578EF8B0041441A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D078E6871578EF8B0041441A /* UIKit.framework in Frameworks */,
+				D078E6891578EF8B0041441A /* Foundation.framework in Frameworks */,
+				D078E68B1578EF8B0041441A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D003F3B71578F22E00D520B4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D02A5EF71578F380000B7E0B /* Blue.png */,
+				D02A5EF81578F380000B7E0B /* Brown.png */,
+				D02A5EF91578F380000B7E0B /* Gray.png */,
+				D02A5EFA1578F380000B7E0B /* Green.png */,
+				D02A5EFB1578F380000B7E0B /* Orange.png */,
+				D02A5EFC1578F380000B7E0B /* Purple.png */,
+				D02A5EFD1578F380000B7E0B /* Red.png */,
+				D02A5EFE1578F380000B7E0B /* Yellow.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D078E6771578EF8B0041441A = {
+			isa = PBXGroup;
+			children = (
+				D02DA95017EF4EAD00F43BDA /* Icon.png */,
+				D0DAEBAC1590AA0200B92491 /* ReadMe.rtf */,
+				D078E68C1578EF8B0041441A /* Nav Colors */,
+				D078E6851578EF8B0041441A /* Frameworks */,
+				D078E6831578EF8B0041441A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D078E6831578EF8B0041441A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D078E6821578EF8B0041441A /* Nav Colors.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D078E6851578EF8B0041441A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D078E6861578EF8B0041441A /* UIKit.framework */,
+				D078E6881578EF8B0041441A /* Foundation.framework */,
+				D078E68A1578EF8B0041441A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D078E68C1578EF8B0041441A /* Nav Colors */ = {
+			isa = PBXGroup;
+			children = (
+				D086E9F7157906640041C69F /* Model.h */,
+				D086E9F8157906640041C69F /* Model.m */,
+				D003F3B71578F22E00D520B4 /* Images */,
+				D078E6951578EF8B0041441A /* AppDelegate.h */,
+				D078E6961578EF8B0041441A /* AppDelegate.m */,
+				D078E6981578EF8B0041441A /* MainStoryboard.storyboard */,
+				D078E68D1578EF8B0041441A /* Supporting Files */,
+				D078E6CB1578F0750041441A /* ColorList.h */,
+				D078E6CC1578F0750041441A /* ColorList.m */,
+				D078E6CE1578F0880041441A /* ColorDetail.h */,
+				D078E6CF1578F0880041441A /* ColorDetail.m */,
+			);
+			path = "Nav Colors";
+			sourceTree = "<group>";
+		};
+		D078E68D1578EF8B0041441A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D02DA94A17EF4E9200F43BDA /* Default-568h@2x.png */,
+				D02DA94B17EF4E9200F43BDA /* Default.png */,
+				D02DA94C17EF4E9200F43BDA /* Default@2x.png */,
+				D02A5F181578F637000B7E0B /* ColorsDict.plist */,
+				D078E68E1578EF8B0041441A /* Nav Colors-Info.plist */,
+				D078E68F1578EF8B0041441A /* InfoPlist.strings */,
+				D078E6921578EF8B0041441A /* main.m */,
+				D078E6941578EF8B0041441A /* Nav Colors-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D078E6811578EF8B0041441A /* Nav Colors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D078E6A01578EF8B0041441A /* Build configuration list for PBXNativeTarget "Nav Colors" */;
+			buildPhases = (
+				D078E67E1578EF8B0041441A /* Sources */,
+				D078E67F1578EF8B0041441A /* Frameworks */,
+				D078E6801578EF8B0041441A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nav Colors";
+			productName = "Nav Colors";
+			productReference = D078E6821578EF8B0041441A /* Nav Colors.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D078E6791578EF8B0041441A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Seneca College";
+			};
+			buildConfigurationList = D078E67C1578EF8B0041441A /* Build configuration list for PBXProject "Nav Colors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D078E6771578EF8B0041441A;
+			productRefGroup = D078E6831578EF8B0041441A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D078E6811578EF8B0041441A /* Nav Colors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D078E6801578EF8B0041441A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D078E6911578EF8B0041441A /* InfoPlist.strings in Resources */,
+				D02A5EFF1578F380000B7E0B /* Blue.png in Resources */,
+				D02A5F001578F380000B7E0B /* Brown.png in Resources */,
+				D02A5F011578F380000B7E0B /* Gray.png in Resources */,
+				D02A5F021578F380000B7E0B /* Green.png in Resources */,
+				D02A5F031578F380000B7E0B /* Orange.png in Resources */,
+				D02A5F041578F380000B7E0B /* Purple.png in Resources */,
+				D02A5F051578F380000B7E0B /* Red.png in Resources */,
+				D02A5F061578F380000B7E0B /* Yellow.png in Resources */,
+				D02A5F191578F637000B7E0B /* ColorsDict.plist in Resources */,
+				D0EF26391579086000A82573 /* MainStoryboard.storyboard in Resources */,
+				D0DAEBAD1590AA0200B92491 /* ReadMe.rtf in Resources */,
+				D02DA94D17EF4E9200F43BDA /* Default-568h@2x.png in Resources */,
+				D02DA94E17EF4E9200F43BDA /* Default.png in Resources */,
+				D02DA94F17EF4E9200F43BDA /* Default@2x.png in Resources */,
+				D02DA95117EF4EAD00F43BDA /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D078E67E1578EF8B0041441A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D078E6931578EF8B0041441A /* main.m in Sources */,
+				D078E6971578EF8B0041441A /* AppDelegate.m in Sources */,
+				D078E6CD1578F0750041441A /* ColorList.m in Sources */,
+				D078E6D01578F0880041441A /* ColorDetail.m in Sources */,
+				D086E9F9157906640041C69F /* Model.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D078E68F1578EF8B0041441A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D078E6901578EF8B0041441A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D078E6981578EF8B0041441A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D078E6991578EF8B0041441A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D078E69E1578EF8B0041441A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D078E69F1578EF8B0041441A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+		D078E6A11578EF8B0041441A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nav Colors/Nav Colors-Prefix.pch";
+				INFOPLIST_FILE = "Nav Colors/Nav Colors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D078E6A21578EF8B0041441A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nav Colors/Nav Colors-Prefix.pch";
+				INFOPLIST_FILE = "Nav Colors/Nav Colors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D078E67C1578EF8B0041441A /* Build configuration list for PBXProject "Nav Colors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D078E69E1578EF8B0041441A /* Debug */,
+				D078E69F1578EF8B0041441A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D078E6A01578EF8B0041441A /* Build configuration list for PBXNativeTarget "Nav Colors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D078E6A11578EF8B0041441A /* Debug */,
+				D078E6A21578EF8B0041441A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D078E6791578EF8B0041441A /* Project object */;
+}
