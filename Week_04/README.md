@@ -1,10 +1,5 @@
 ### Week 4 code examples
 
-**Table Save**
-- in the previous two table examples, the checked state was NOT saved
-- in this example, the checked state IS saved 
-- this supports a re-draw task, after a row moves off the screen, and then returns
-
 **Alert Action** 
 – modal view controllers, UIAlert, UIActionSheet
 
