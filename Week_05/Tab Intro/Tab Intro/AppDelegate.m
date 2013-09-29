@@ -23,7 +23,7 @@
     FirstViewController *vc1 = (FirstViewController *)[tbc.viewControllers objectAtIndex:0];
     SecondViewController *vc2 = (SecondViewController *)[tbc.viewControllers objectAtIndex:1];
     
-    // Create and assign a model object
+    // Create and assign a model object, to all controllers that need it
     Model *model = [[Model alloc] init];
     vc1.model = model;
     vc2.model = model;

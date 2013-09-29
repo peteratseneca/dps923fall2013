@@ -12,7 +12,7 @@
 
 @end
 
-@implementation SecondViewController
+@implementation SecondViewController {}
 
 #pragma mark - View lifecycle
 

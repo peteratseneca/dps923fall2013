@@ -10,7 +10,7 @@
 		D02DA93D17EF4D0800F43BDA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D02DA93A17EF4D0800F43BDA /* Default-568h@2x.png */; };
 		D02DA93E17EF4D0800F43BDA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D02DA93B17EF4D0800F43BDA /* Default.png */; };
 		D02DA93F17EF4D0800F43BDA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D02DA93C17EF4D0800F43BDA /* Default@2x.png */; };
-		D02DA94117EF4D1C00F43BDA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D02DA94017EF4D1C00F43BDA /* Icon.png */; };
+		D093078717F8C0C5008A229C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D093078617F8C0C5008A229C /* Icon.png */; };
 		D0DAEB61158FCD6400B92491 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DAEB60158FCD6400B92491 /* UIKit.framework */; };
 		D0DAEB63158FCD6400B92491 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DAEB62158FCD6400B92491 /* Foundation.framework */; };
 		D0DAEB65158FCD6400B92491 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DAEB64158FCD6400B92491 /* CoreGraphics.framework */; };
@@ -33,7 +33,7 @@
 		D02DA93A17EF4D0800F43BDA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D02DA93B17EF4D0800F43BDA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D02DA93C17EF4D0800F43BDA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		D02DA94017EF4D1C00F43BDA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D093078617F8C0C5008A229C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		D0DAEB5C158FCD6400B92491 /* Tab Intro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tab Intro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DAEB60158FCD6400B92491 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D0DAEB62158FCD6400B92491 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -77,7 +77,7 @@
 		D0DAEB51158FCD6400B92491 = {
 			isa = PBXGroup;
 			children = (
-				D02DA94017EF4D1C00F43BDA /* Icon.png */,
+				D093078617F8C0C5008A229C /* Icon.png */,
 				D0DAEB8B158FCD8F00B92491 /* ReadMe.rtf */,
 				D0DAEB66158FCD6400B92491 /* Tab Intro */,
 				D0DAEB5F158FCD6400B92491 /* Frameworks */,
@@ -201,7 +201,7 @@
 				D02DA93D17EF4D0800F43BDA /* Default-568h@2x.png in Resources */,
 				D02DA93E17EF4D0800F43BDA /* Default.png in Resources */,
 				D02DA93F17EF4D0800F43BDA /* Default@2x.png in Resources */,
-				D02DA94117EF4D1C00F43BDA /* Icon.png in Resources */,
+				D093078717F8C0C5008A229C /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,7 +13,7 @@
 
 @end
 
-@implementation ColorList
+@implementation ColorList {}
 
 #pragma mark - Table view methods
 

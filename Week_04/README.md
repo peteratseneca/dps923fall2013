@@ -8,12 +8,4 @@
 
 **Fav Photo** 
 - use a Cocoa-provided modal view controller (a photo picker)
-
-**Tab Intro** 
-- get started with a multi-view app controlled by a ‘tab bar’
-
-**Nav Views** 
-- introduction to navigation-based apps (i.e. ‘drill down’)
-
-**Nav Colors** 
-- master-detail, using a table view to drive the navigation actions
+- also use a Cocoa-provided mail composer modal view controller

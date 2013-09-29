@@ -12,7 +12,7 @@
 
 @end
 
-@implementation FirstViewController
+@implementation FirstViewController {}
 
 #pragma mark - View lifecycle
 

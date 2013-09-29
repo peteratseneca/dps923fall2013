@@ -13,7 +13,7 @@
 
 @end
 
-@implementation ViewController
+@implementation ViewController {}
 
 #pragma mark - User operations
 
