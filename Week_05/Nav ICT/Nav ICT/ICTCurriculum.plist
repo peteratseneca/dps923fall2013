@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BSD</key>
+	<dict>
+		<key>BTP100</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Programming Fundamentals Using C</string>
+			<key>Description</key>
+			<string>This subject covers the fundamental principles of computer programming, with an emphasis on problem solving strategies using structured programming techniques. The C programming language, which is widely used and forms the syntactical basis for object-oriented languages such as C++, C#, and Java, is used to introduce problem analysis, algorithm design, and program implementation.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/btp100/</string>
+		</dict>
+		<key>BTB110</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Accounting for the Business Environment</string>
+			<key>Description</key>
+			<string>This course introduces students to the principles of business accounting. Students learn the theory and calculations supporting profit and loss statements, interest payments and present value, and have the opportunity to apply concepts learned in a series of business-based assignments. Students will also study the design of accounting software and will be required to research various packaged accounting systems as part of a case study to recommend a packaged system for a specific business.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/btb110/</string>
+		</dict>
+		<key>BTO120</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Operating Systems for Programmers - UNIX</string>
+			<key>Description</key>
+			<string>Unix is a stable, mature, multi-purpose operating system with a reputation for efficiently storing and rapidly delivering Internet content, as well as serving as an effective and efficient development platform for programmers, web designers, graphic artists and document publishers. This course introduces Unix to students majoring in computer programming. Students learn to work in a Unix graphical environment using both Unix and Linux servers. Students also learn to configure their login accounts, manipulate data stored in files, effectively use Unix commands and utilities, and write basic shell scripts.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/bto120/</string>
+		</dict>
+		<key>BTO130</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Operating Systems for Programmers - Windows</string>
+			<key>Description</key>
+			<string>This subject introduces students to the Windows operating system, with an emphasis on using the Windows platform for software development. Windows is the leading solution for Internet, personal, network, and enterprise server computing, and for programming, because of its rich development environment. In this subject, students will learn operating system concepts, architecture, features, and configuration, while using the most recent version of the Windows operating system. Students will also improve and enhance their user skills during the course. BTO130 also introduces students to the Seneca computing environment. This subject supports and complements the topics learned in all other first-semester subjects, and lays a foundation for upper-semester programming subjects.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/bto130/</string>
+		</dict>
+		<key>BTC140</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Critical Thinking and Writing</string>
+			<key>Description</key>
+			<string>This course focuses on critical thinking and the rhetorical elements of both persuasive and evaluative forms of writing. Students will learn to differentiate between shades of fact and opinion, objectivity and bias, and to apply the techniques of sound argument for a variety of purposes. The main elements of effective communication and research techniques will also be examined. Techniques explored and skills developed in this course are applied throughout all courses during the four years of the program.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/btc140/</string>
+		</dict>
+		<key>BTP200</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>The Object-Oriented Paradigm Using C++</string>
+			<key>Description</key>
+			<string>This subject introduces the principles of object-oriented programming. Students learn to design and build reusable objects, making use of encapsulation, polymorphism and inheritance as available in the C++ programming language. The emphasis throughout is on an object-oriented approach to the solution of small problems.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/btp200/</string>
+		</dict>
+		<key>BTD210</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Database Design Principles</string>
+			<key>Description</key>
+			<string>This course introduces the principles of relational database design. Students will be taught how to code SQL (Structured Query Language). A methodology for relational database design that uses Entity Relationship Diagrams and normalization of data in developing a database schema will be covered. A subset of SQL using Microsoft SQL Server is used to implement data tables.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/btd210/</string>
+		</dict>
+		<key>BTI220</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Internet Architecture and Development</string>
+			<key>Description</key>
+			<string>This subject will begin with an in-depth study of XHTML, the universal language of the Web. CSS will be studied as it relates to enhancing the presentation of web content. Client-side programming will be taught using JavaScript and the DOM, technologies used to create dynamic content and provide a true interactive experience for the Web site visitor. Throughout the subject, emphasis will be placed on the development of professional, cross-browser websites.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/bti220/</string>
+		</dict>
+		<key>BTC240</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Interpersonal Communications in Organizations</string>
+			<key>Description</key>
+			<string>This subject focuses on spoken and visual means of communication, other than writing. Techniques for attentive listening, purposeful body language, and careful speaking are studied together with an understanding of the psychology that makes them effective.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/btc240/</string>
+		</dict>
+		<key>LSO</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Liberal Study Option</string>
+			<key>Description</key>
+			<string>See the list of available Liberal Study Options</string>
+			<key>Subject Outline URL</key>
+			<string>http://els.senecac.on.ca/01degree.htm</string>
+		</dict>
+	</dict>
+	<key>CPA</key>
+	<dict>
+		<key>APC100</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Applied Professional Communications</string>
+			<key>Description</key>
+			<string>This subject focuses on group work, team building, interpersonal communication, presentation skills, conflict and time management with applications to the computer industry.
+In this subject, you are developing the skills that will make you not only a greater asset to an employer, but a more confident and accomplished individual. APC100 will give you a thorough grounding in employability skills listed as essential by the Conference Board of Canada in our global, knowledge-based society of the 21st century. You will be introduced to the theoretical background, then given ample opportunity to develop your expertise in these communication, teamwork, personal management, presentation and thinking skills. You will both require and be further developing these skills in all the subjects of your program.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/apc100/</string>
+		</dict>
+		<key>EAC150</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>College English</string>
+			<key>Description</key>
+			<string>College English is an introductory college writing and reading subject. Students entering this course will have competence in grammar, sentence structure, and paragraphing skills. Through a variety of assignments, successful students in College English develop the reading, writing, and analytical skills essential to them as communicators in college and upon graduation. This subject teaches writing through the critical reading of fiction and non-fiction.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/eac150/</string>
+		</dict>
+		<key>ICA002</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Introduction to Computers and Applications</string>
+			<key>Description</key>
+			<string>In this subject students are introduced to use of computer systems, a microcomputer operating system (MS Windows Vista), and the following business applications: MS Word 2007 for word processing, MS PowerPoint 2007 for business presentations, and MS Excel 2007 for spreadsheets.  The student will use Windows to effectively operate a microcomputer, access various Seneca computer systems, prepare word documents, create business presentations, and develop spreadsheets.  Students in the schools of Electronics and Computer Studies will study MS Access 2007 for databases in place of Windows.</string>
+			<key>Subject Outline URL</key>
+			<string>http://www.senecac.on.ca/gls/ICA001/sol.html</string>
+		</dict>
+		<key>IPC144</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Introduction to Programming Using C</string>
+			<key>Description</key>
+			<string>This first subject in computer programming emphasizes problem solving strategies using structured programming techniques. The C programming language is used to introduce problem analysis, algorithm design, and program implementation. The LINUX operating system is used.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/ipc144/</string>
+		</dict>
+		<key>ULI101</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Introduction to Unix/Linux and the Internet</string>
+			<key>Description</key>
+			<string>Unix and Linux represent the operating system technology underlying many of the services of the Internet. This course introduces students to Unix, Linux and the Internet. Students will learn to navigate the World-Wide Web, transfer files, communicate with others via electronic mail, and create and maintain web pages using Extensible Hypertext Mark-up Language (XHTML). Students will do this work in the Linux environment, at the same time learning to configure their accounts, manipulate data stored in files, effectively use Unix and Linux commands and utilities, and maintain simple shell scripts.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/uli101/</string>
+		</dict>
+		<key>IOS110</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Introduction to Operating Systems Using Windows</string>
+			<key>Description</key>
+			<string>This course introduces the student to the most popular PC based operating system, Microsoft Windows. Using Windows, students will learn basic operating system concepts and functions, such as system architecture, process and memory management, scheduling, I/O, device drivers and file systems. Through lectures and hands-on labs, students will gain a general overview and understanding of Windows, both in a multi-user and single user environment. This experience will be deepened by the use of command line tools and system and shell programming to automate common tasks.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/ios110/</string>
+		</dict>
+		<key>IBC233</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>iSERIES Business Computing</string>
+			<key>Description</key>
+			<string>IBC233 introduces commercial and business information technology on the IBM iSeries server. Students will work in an object based architecture using Client Access and IBM Rational Developer for System i to create business applications. These applications will be developed using the built in DB2 relational database, OS/400 commands and Control Language programming, RPGLE programming, interactive screens, and WebQuery or Query/400 data reporting. The Integrated File System, which provides Windows and UNIX file serving, along with desktop connectivity tools will be investigated to demonstrate the heterogeneous systems support available only on the iSeries platform.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/ibc233/</string>
+		</dict>
+		<key>OOP244</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Introduction to Object Oriented Programming</string>
+			<key>Description</key>
+			<string>This subject introduces students to object oriented programming concepts. Students will learn to build reusable objects, making use of encapsulation, polymorphism and inheritance in the C++ programming language. Throughout the subject, the emphasis will be on using object-oriented approaches to solving problems.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/oop244/</string>
+		</dict>
+		<key>INT222</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Internet I - Internet Fundamentals</string>
+			<key>Description</key>
+			<string>The Internet has revolutionized modern life, including the way people shop, communicate, and even where and how they work. At the forefront of this revolution are the people writing the software that drives the World Wide Web. The goal of this course is to provide the student with key skills demanded in the fast-paced and exciting field of web development. The course will begin with an in-depth study of HTML, the universal language of the Web. This will be supplemented by coverage of XHTML and XML, the next-generation languages of the Web. CSS will be studied as it relates to enhancing the presentation of websites. Client-side programming will be taught using JavaScript and DHTML, languages used to create dynamic content and provide a true interactive experience for the Web site visitor. Throughout the course, emphasis will be placed on the development of professional, cross-browser websites.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/int222/</string>
+		</dict>
+		<key>DBS201</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Introduction to Database Design and SQL</string>
+			<key>Description</key>
+			<string>This subject introduces students to relational database design and SQL (Structured Query Language) used with relational databases. Students will be introduced to a history of database management covering hierarchical, network, relational and object oriented models with a focus on the relational model and its operators. Students will be presented with a methodology for relational database design using Entity Relationship Diagrams and normalization of data. Students will be introduced to a subset of SQL using IBM&apos;s DB2 on the iSeries platform. An overview of the functions of the Database Management System (DBMS) and of a Database Administrator (DBA) will also be presented.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/dbs201/</string>
+		</dict>
+		<key>LIB</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Liberal Study Elective</string>
+			<key>Description</key>
+			<string>See the list of available Liberal Study Electives</string>
+			<key>Subject Outline URL</key>
+			<string>http://els.senecac.on.ca/02subjects-byCategory.pl</string>
+		</dict>
+	</dict>
+	<key>DAD</key>
+	<dict>
+		<key>ULI705</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>UNIX/Linux and Internet Programming</string>
+			<key>Description</key>
+			<string>This subject introduces students to Linux/Unix and internet programming. Students will learn effective use of Linux/UNIX commands along with writing shell scripts. Students will create and maintain web pages using XHTML. Client-side programming will be taught using Javascript, along with server-side programming using technologies that are popular on the Linux/Unix platform including Perl and PHP. Students will learn how to access and manipulate data held in MySQL database through the web, by using Perl and PHP scripts. Students will also get a basic introduction to XML.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/uli705/</string>
+		</dict>
+		<key>SQL710</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Database Administration Using SQL Server</string>
+			<key>Description</key>
+			<string>This subject introduces students to the administration of a Database Management System (DBMS) using Microsoft&apos;s SQL Server in a Windows environment. The features, utilities and operations of a DBMS are examined. Students will install SQL Server, backup and recover data, monitor, tune and administer security for a SQL Server database.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/sql710/</string>
+		</dict>
+		<key>DES715</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Database Design</string>
+			<key>Description</key>
+			<string>This course introduces students to relational and object oriented database design. Students will produce a conceptual database design using Entity Relationship modeling and normalization as well as an Object Data Model in UML using Object-Oriented methodology. Techniques will be presented on how to map each conceptual model from the above two approaches to a Relational data model to obtain logical database schemas. These two approaches will then be compared to understand their effectiveness in database application design. Students will design a relational database which will be implemented in the second semester Project Management and Implementation subject.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/des715/</string>
+		</dict>
+		<key>ORA725</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>SQL and PL/SQL Using ORACLE</string>
+			<key>Description</key>
+			<string>This subject introduces students to SQL (Structured Query Language), the standard relational database language, and also to Oracle&apos;s procedural language extension to SQL called PL/SQL. Students will also learn Oracle&apos;s SQL*Plus commands. Students will learn these languages by working with an Oracle database for a sample application.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/ora725/</string>
+		</dict>
+		<key>JAV745</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Programming Using JAVA</string>
+			<key>Description</key>
+			<string>This subject introduces students to programming techniques using Java. The syntax of Java will be investigated along with the concepts of packages, interfaces, exceptions, and threads. The students will be introduced to Java&apos;s Class Hierarchy and encouraged to explore it.  Exercises will be drawn primarily from business or government and rigorous testing techniques will be taught and used.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/jav745/</string>
+		</dict>
+		<key>CJV805</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Database Connectivity Using JAVA</string>
+			<key>Description</key>
+			<string>The student will be introduced to connectivity issues that business deals with in today&apos;s environment, in creating a GUI front end to a back-end database. In this course students will try to connect to Oracle database from various back-end environments and will manipulate the data by SQL or database objects. Issues of connectivity across a wide variety of platforms and also through the Internet, will be discussed, practiced and implemented.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/cjv805/</string>
+		</dict>
+		<key>CVB815</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Database Connectivity Using VISUAL BASIC</string>
+			<key>Description</key>
+			<string>This subject introduces students to the Visual Studio.NET environment, the .NET Framework using Visual Basic.NET and ASP.NET. Students will learn to use these technologies to build database-driven desktop applications and interactive web sites hosted on the Microsoft platform.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/cvb815/</string>
+		</dict>
+		<key>DBW825</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Data Warehousing</string>
+			<key>Description</key>
+			<string>Data Warehousing has become an essential business tool for making informed decisions. This course introduces students to data warehousing concepts and emphasizes a hands on approach to reinforce the theory. A large project is used to design and develop a data warehouse. Star schema, fact tables and dimension tables will be examined. Multi dimensional databases are emphasised. A team project will be used to handle the process of moving data from an OLTP system to a DW with management reports through the cube and pivotal tables. Microsoft SQL server Analysis Services will be used to develop OLAP cubes and Microsoft Excel for OLAP reporting.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/dbw825/</string>
+		</dict>
+		<key>SEC835</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Security in Databases and Web Applications</string>
+			<key>Description</key>
+			<string>This subject focuses on security issues related to data and databases, along with techniques for secure system design, secure program design and security testing. In particular, the subject reviews practical security mechanisms and solutions, such as identity and access management, cryptography, secure communications and secure web applications. Students will learn about the security threats, software vulnerabilities and hacker attacks that are commonly implemented against commercial applications, including SQL injection, Cross-Site Scripting and Denial of Service.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/sec835/</string>
+		</dict>
+		<key>PRJ845</key>
+		<dict>
+			<key>Subject Name</key>
+			<string>Project Management and Implementation</string>
+			<key>Description</key>
+			<string>This subject is made up of three parts: System Development Life Cycle, Project Management methodology and Design of a business application requiring Internet and/or cross-platform connectivity Develop a database application using techniques and tools learned in the program Students are introduced to a methodology used to manage a database application development project. Students will use Microsoft Project as the project management tool. Using this project plan, groups of 3 to 5 students will design and develop a complex database application with a minimum of 15 tables with Internet and/or cross-platform connectivity based on the database designed in the previous semester in DES715.</string>
+			<key>Subject Outline URL</key>
+			<string>https://scs.senecac.on.ca/course/prj845</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

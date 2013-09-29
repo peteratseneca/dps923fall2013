@@ -1,0 +1,71 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs28 \cf0 \
+This is the "Nav ICT +" example app.\
+\
+It was created with Xcode 4.4 for iOS 5.1 SDK in August 2012.\
+\
+(based on "Nav ICT"; enables new courses to be added to programs) \
+\
+It is a navigation-based app, which uses a dictionary (ICTCurriculum.plist) as its data source. The data is from the School of Information and Communications Technology, for selected degree, diploma, and certificate programs. Subjects and their details for first-year subjects are included in the dictionary. \
+\
+The Master-Detail Application template was used to create the app. That will create the root view controller (located inside a navigation controller) correctly, and configure it to load when the application launches. \
+\
+~~~~~~~~~~ \
+\
+For best results, create view controllers that have meaningful names. For example:\
+ProgramList - table view controller \
+SubjectList - table view controller\
+SubjectDetail - view controller, with subject details \
+SubjectOutline - view controller, with a web view\
+\
+Change the identity of the first table view controller to ProgramList. \
+\
+Delete the "detail view controller". Add a table view controller, and set its identity to SubjectList. \
+\
+Add two more view controllers. Set their identities to SubjectDetail and SubjectOutline. Configure their user interfaces. \
+\
+Embed the SubjectOutline view controller in a navigation controller. \
+\
+Create segues for the navigation. \
+\
+~~~~~~~~~~ \
+\
+This example uses the view controller delegate pattern to handle a modal web view \
+Create a quick reference guide for coding that \
+\
+This example also shows how it becomes difficult to use dictionaries (and arrays) for complicated data storage (including collections) \
+It's just awkward to do so (as you'll see) - we fix this with Core Data \
+\
+~~~~~~~~~~ \
+\
+The top level keys-value pairs in the dictionary list the selected program codes. \
+\
+Then, for each program, another dictionary stores key-value pairs for the subject codes in the first year of the program; this is the second level. \
+\
+Then, for each subject code, another dictionary stores key-value pairs of strings, for selected details of the subject code. \
+\
+So, in the app, the root level will show a table view, with program codes. For example:\
+BSD\
+CPA\
+CPD\
+DAD\
+\
+Then, the next level will also show a table view, with subject codes. For example, if BSD was selected:\
+BTP100\
+BTB110\
+BTO120\
+BTO130\
+BTC140\
+\
+Then, the next level will show a standard view, with details for the subject code, including:\
+Subject name\
+Subject description\
+Subject outline URL\
+\
+In addition to these three levels, a fourth level has been added. It is a UIWebView, which enables you to show a modal view controller with web content, within your app. Very convenient - it avoids having to quit the app to load Safari. To make a web view work, see the documentation in the SubjectDetail.m showWebSite: method, and in the SubjectOutline.h and .m files. \
+}
