@@ -1,15 +1,17 @@
 //
 //  AppDelegate.m
-//  CD Simple
+//  Classes
 //
-//  Created by Peter McIntyre on 2012/06/22.
+//  Created by Peter McIntyre on 2012/06/25.
 //  Copyright (c) 2012 Seneca College. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "EventList.h"
+#import "AlbumList.h"
 
 @implementation AppDelegate {}
+
+#pragma mark - App lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -17,14 +19,14 @@
     UINavigationController *nav = (UINavigationController *)self.window.rootViewController;
     
     // Get a reference to the nav controller's first view controller
-    EventList *vc = (EventList *)nav.topViewController;
+    AlbumList *vc = (AlbumList *)nav.topViewController;
     
     // Create the model
     Model *model = [[Model alloc] init];
     
     // Pass the model to the view controller
     vc.model = model;
-
+    
     return YES;
 }
 

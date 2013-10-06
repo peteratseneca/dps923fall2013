@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2549" systemVersion="12A269" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="IE5-LQ-AfO">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1498"/>
+    </dependencies>
+    <scenes>
+        <!--Professor List - Professors-->
+        <scene sceneID="nPV-rS-f6A">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J45-tT-HA6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="PsX-ru-4zV" customClass="ProfessorList" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="vNw-K3-Two">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="4dl-en-ROi" style="IBUITableViewCellStyleDefault" id="WYO-JI-l7v">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4dl-en-ROi">
+                                            <rect key="frame" x="10" y="0.0" width="280" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <segue destination="Hjm-P5-wgS" kind="push" identifier="toProfessorView" id="OAS-D5-wPD"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Professors" id="zqs-er-7M8">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="sUx-b2-z3b">
+                            <connections>
+                                <segue destination="8hU-8P-EEF" kind="modal" identifier="toProfessorAddEdit" id="j7K-f9-i2C"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="801" y="-160"/>
+        </scene>
+        <!--Professor Edit - Add/Edit-->
+        <scene sceneID="mvB-L8-gp4">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s23-F6-SIL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="GgB-IA-m1K" customClass="ProfessorEdit" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="egv-TB-W6M">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Professor's full name" minimumFontSize="17" clearButtonMode="whileEditing" id="xab-1y-qWj">
+                                <rect key="frame" x="20" y="49" width="280" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="GgB-IA-m1K" id="fPc-CL-DoL"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Office location" minimumFontSize="17" clearButtonMode="whileEditing" id="mjY-sw-fse">
+                                <rect key="frame" x="20" y="88" width="280" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="GgB-IA-m1K" id="tJT-As-8AT"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email address" minimumFontSize="17" clearButtonMode="whileEditing" id="lQN-Gm-N6R">
+                                <rect key="frame" x="20" y="127" width="280" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="GgB-IA-m1K" id="a6C-dX-Ki2"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Web site address" minimumFontSize="17" clearButtonMode="whileEditing" id="jbo-U6-epO">
+                                <rect key="frame" x="20" y="166" width="280" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="GgB-IA-m1K" id="8br-xc-lf8"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Enter data, and tap Save" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="uYd-af-Qka">
+                                <rect key="frame" x="20" y="20" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="rpy-hr-0QF">
+                                <rect key="frame" x="20" y="205" width="280" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Add/Edit" id="sdo-M0-2Vn">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="dVs-Af-01h">
+                            <connections>
+                                <action selector="cancel:" destination="GgB-IA-m1K" id="1Mx-ij-wrz"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="Pw2-KP-MNE">
+                            <connections>
+                                <action selector="save:" destination="GgB-IA-m1K" id="vrf-aW-oSU"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tfEmail" destination="lQN-Gm-N6R" id="DoR-VY-7jL"/>
+                        <outlet property="tfFullName" destination="xab-1y-qWj" id="HmE-yT-wlw"/>
+                        <outlet property="tfOffice" destination="mjY-sw-fse" id="S2e-di-4cB"/>
+                        <outlet property="tfWebSite" destination="jbo-U6-epO" id="WRt-Kg-22y"/>
+                        <outlet property="tvErrors" destination="rpy-hr-0QF" id="vh2-DD-X3v"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1335" y="480"/>
+        </scene>
+        <!--Professor View-->
+        <scene sceneID="xMW-qk-AHo">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rby-PB-sTl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="Hjm-P5-wgS" customClass="ProfessorView" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qe4-Q4-ndZ">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="AX3-51-XDD">
+                                <rect key="frame" x="20" y="20" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Wex-Q8-Z9T">
+                                <rect key="frame" x="20" y="49" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="CMQ-Iv-2BJ">
+                                <rect key="frame" x="20" y="78" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="1Yb-Vo-lsv">
+                                <rect key="frame" x="20" y="107" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="b2R-cZ-oZu"/>
+                    <connections>
+                        <outlet property="lblEmail" destination="CMQ-Iv-2BJ" id="c1H-lE-YQd"/>
+                        <outlet property="lblFullName" destination="AX3-51-XDD" id="QTi-px-T8p"/>
+                        <outlet property="lblOffice" destination="Wex-Q8-Z9T" id="WYZ-T9-y4z"/>
+                        <outlet property="lblWebSite" destination="1Yb-Vo-lsv" id="yeo-bw-yJi"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1312" y="-160"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="tjp-vw-EZa">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zDK-0N-yz5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="IE5-LQ-AfO" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Eub-g7-WRe">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="PsX-ru-4zV" kind="relationship" relationship="rootViewController" id="BfQ-Lh-mjc"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="267" y="-160"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="SZc-DO-0t7">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xp2-FY-hmV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="8hU-8P-EEF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="GpR-Vl-YBV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="GgB-IA-m1K" kind="relationship" relationship="rootViewController" id="JKJ-jf-ds5"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="809" y="480"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="ProfessorEdit" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ProfessorEdit.h"/>
+            <relationships>
+                <relationship kind="action" name="cancel:"/>
+                <relationship kind="action" name="save:"/>
+                <relationship kind="outlet" name="tfEmail" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="tfFullName" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="tfOffice" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="tfWebSite" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="tvErrors" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+        <class className="ProfessorList" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ProfessorList.h"/>
+        </class>
+        <class className="ProfessorView" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ProfessorView.h"/>
+            <relationships>
+                <relationship kind="outlet" name="lblEmail" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="lblFullName" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="lblOffice" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="lblWebSite" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
