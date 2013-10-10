@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'Collections_console' target in the 'Collections_console' project
-//
-
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-#endif

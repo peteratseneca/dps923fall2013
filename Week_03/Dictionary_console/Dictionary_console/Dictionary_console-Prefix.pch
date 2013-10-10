@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Dictionary_console' target in the 'Dictionary_console' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
