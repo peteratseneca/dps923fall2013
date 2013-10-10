@@ -1,0 +1,69 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs28 \cf0 \
+This is the "CD 2 1-M +" example app. \
+\
+It was created with Xcode 4.3 for iOS 5.1 SDK in July 2012.\
+\
+(used the other one as the base) \
+\
+The purpose of... \
+\
+(add scene(s) and segue(s)) \
+\
+Artist > Album > Song \
+\
+Same pattern, again and again\
+\
+\
+\
+~~~~~ \
+\
+Add/edit scenes are usually presented modally (i.e. they slide up from the bottom of the screen). \
+\
+In addition, the add/edit controller usually defines a protocol, which must be implemented by the presenting (hosting) controller. The presenting controller becomes the delegate of the add/edit controller. When the user is finished with the add/edit task, their user interface action causes the add/edit controller to call a handler method (e.g. didFinishAddEdit) in its delegate, the presenting controller. \
+\
+Add/edit controller tasks...\
+1. Add a UIViewController subclass \
+2. Add the protocol code \
+\
+Storyboard tasks...\
+1. Add a view controller scene (embed in a nav controller)\
+2. Configure it in Identity Inspector\
+3. Add a plus ( + ) button to the presenting scene's nav bar\
+4. Configure a segue from the plus button to the new scene, modally\
+5. Configure the new scene with user interface elements\
+6. Configure the logic in the new view controller (including keyboard handling)\
+\
+~~~~~ \
+\
+\
+How to use this project as a "template" for your own...\
+1) Duplicate\
+2) Rename the project\
+3) Rename the scheme\
+\
+1) Duplicate...\
+In Finder, select this project's folder\
+Command+D to duplicate\
+Then, rename the folder to your desired name\
+\
+2) Rename the project...\
+Open the project file in Xcode\
+In the Project Navigator, select the project file (it has a blue icon)\
+Press the tab key, and type your new name\
+You will be prompted through the rename procedure\
+\
+3) Rename the scheme...\
+Click the scheme (which will still display "Classes"), and choose Manage Schemes...\
+Select the scheme (on the list), and then press the tab key until you are able to edit the name of the scheme\
+Type the new name (to match the new name for the project) \
+\
+~~~~~ \
+\
+Next...\
+}
