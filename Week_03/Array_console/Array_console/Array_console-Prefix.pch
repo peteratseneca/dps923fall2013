@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Array_console' target in the 'Array_console' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

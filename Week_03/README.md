@@ -1,13 +1,25 @@
 ### Week 3 code examples
 
+**Array_console**
+- console app, easy-to-read coding
+- immutable array
+- mutable array
+- typical operations
+
 **Array**
-- simple array
+- simple array, in an iOS app
 
 **Array To Do**
 - array as a model object
 
+**Dictionary_console**
+- console app, easy-to-read coding
+- immutable dictionary (hash table)
+- mutable dictionary
+- typical operations
+
 **Dictionary**
-- simple dictionary (hash table)
+- simple dictionary, in an iOS app
 
 **Picker**
 - spinning-wheel picker
