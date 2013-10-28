@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D02FB27315B57E88005F1A8B /* ArtistList.m in Sources */ = {isa = PBXBuildFile; fileRef = D02FB27215B57E88005F1A8B /* ArtistList.m */; };
-		D02FB27715B58BB1005F1A8B /* AlbumList.m in Sources */ = {isa = PBXBuildFile; fileRef = D02FB27615B58BB0005F1A8B /* AlbumList.m */; };
-		D02FB27A15B5904B005F1A8B /* SongList.m in Sources */ = {isa = PBXBuildFile; fileRef = D02FB27915B5904B005F1A8B /* SongList.m */; };
-		D02FB28115B59C5D005F1A8B /* SongView.m in Sources */ = {isa = PBXBuildFile; fileRef = D02FB28015B59C5D005F1A8B /* SongView.m */; };
-		D03586511806D4050096CB43 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D03586501806D4050096CB43 /* Icon.png */; };
-		D03586551806D4180096CB43 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D03586521806D4180096CB43 /* Default-568h@2x.png */; };
-		D03586561806D4180096CB43 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D03586531806D4180096CB43 /* Default.png */; };
-		D03586571806D4180096CB43 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D03586541806D4180096CB43 /* Default@2x.png */; };
+		D0308F7C15DBEBDB000BCBF1 /* AppList.m in Sources */ = {isa = PBXBuildFile; fileRef = D0308F7B15DBEBDB000BCBF1 /* AppList.m */; };
+		D0308F8015DBEBEB000BCBF1 /* TopicList.m in Sources */ = {isa = PBXBuildFile; fileRef = D0308F7F15DBEBEB000BCBF1 /* TopicList.m */; };
+		D0308F8B15DC0CAF000BCBF1 /* AppView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0308F8A15DC0CAF000BCBF1 /* AppView.m */; };
+		D032CA2A18115C6400BBC541 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D032CA2918115C6400BBC541 /* Icon.png */; };
+		D032CA2E18115C7A00BBC541 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D032CA2B18115C7A00BBC541 /* Default-568h@2x.png */; };
+		D032CA2F18115C7A00BBC541 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D032CA2C18115C7A00BBC541 /* Default.png */; };
+		D032CA3018115C7A00BBC541 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D032CA2D18115C7A00BBC541 /* Default@2x.png */; };
 		D048108F159910AA003FF529 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D048108E159910AA003FF529 /* UIKit.framework */; };
 		D0481091159910AA003FF529 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0481090159910AA003FF529 /* Foundation.framework */; };
 		D0481093159910AA003FF529 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0481092159910AA003FF529 /* CoreGraphics.framework */; };
@@ -28,29 +27,28 @@
 		D04810B01599CAE9003FF529 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = D04810AE1599CAE9003FF529 /* Model.m */; };
 		D04810B31599CB65003FF529 /* ObjectModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D04810B11599CB65003FF529 /* ObjectModel.xcdatamodeld */; };
 		D04810B61599CD72003FF529 /* DataCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = D04810B51599CD72003FF529 /* DataCreator.m */; };
+		D0A51D9B15DD20DC00D4D1A9 /* TopicView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A51D9A15DD20DC00D4D1A9 /* TopicView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D02FB27115B57E88005F1A8B /* ArtistList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistList.h; sourceTree = "<group>"; };
-		D02FB27215B57E88005F1A8B /* ArtistList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistList.m; sourceTree = "<group>"; };
-		D02FB27515B58BB0005F1A8B /* AlbumList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumList.h; sourceTree = "<group>"; };
-		D02FB27615B58BB0005F1A8B /* AlbumList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumList.m; sourceTree = "<group>"; };
-		D02FB27815B5904B005F1A8B /* SongList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongList.h; sourceTree = "<group>"; };
-		D02FB27915B5904B005F1A8B /* SongList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongList.m; sourceTree = "<group>"; };
-		D02FB27F15B59C5D005F1A8B /* SongView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongView.h; sourceTree = "<group>"; };
-		D02FB28015B59C5D005F1A8B /* SongView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongView.m; sourceTree = "<group>"; };
-		D03586501806D4050096CB43 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		D03586521806D4180096CB43 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		D03586531806D4180096CB43 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		D03586541806D4180096CB43 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		D048108A159910AA003FF529 /* CD 2 1-M.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CD 2 1-M.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0308F7A15DBEBDB000BCBF1 /* AppList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppList.h; sourceTree = "<group>"; };
+		D0308F7B15DBEBDB000BCBF1 /* AppList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppList.m; sourceTree = "<group>"; };
+		D0308F7E15DBEBEB000BCBF1 /* TopicList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicList.h; sourceTree = "<group>"; };
+		D0308F7F15DBEBEB000BCBF1 /* TopicList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicList.m; sourceTree = "<group>"; };
+		D0308F8915DC0CAF000BCBF1 /* AppView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppView.h; sourceTree = "<group>"; };
+		D0308F8A15DC0CAF000BCBF1 /* AppView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppView.m; sourceTree = "<group>"; };
+		D032CA2918115C6400BBC541 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D032CA2B18115C7A00BBC541 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D032CA2C18115C7A00BBC541 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D032CA2D18115C7A00BBC541 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D048108A159910AA003FF529 /* CD 3 M-M.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CD 3 M-M.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D048108E159910AA003FF529 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D0481090159910AA003FF529 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D0481092159910AA003FF529 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D0481096159910AA003FF529 /* CD 2 1-M-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CD 2 1-M-Info.plist"; sourceTree = "<group>"; };
+		D0481096159910AA003FF529 /* CD 3 M-M-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CD 3 M-M-Info.plist"; sourceTree = "<group>"; };
 		D0481098159910AA003FF529 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D048109A159910AA003FF529 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D048109C159910AA003FF529 /* CD 2 1-M-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CD 2 1-M-Prefix.pch"; sourceTree = "<group>"; };
+		D048109C159910AA003FF529 /* CD 3 M-M-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CD 3 M-M-Prefix.pch"; sourceTree = "<group>"; };
 		D048109D159910AA003FF529 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D048109E159910AA003FF529 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D04810A5159910B9003FF529 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -63,6 +61,8 @@
 		D04810B21599CB65003FF529 /* ObjectModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ObjectModel.xcdatamodel; sourceTree = "<group>"; };
 		D04810B41599CD72003FF529 /* DataCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCreator.h; sourceTree = "<group>"; };
 		D04810B51599CD72003FF529 /* DataCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCreator.m; sourceTree = "<group>"; };
+		D0A51D9915DD20DC00D4D1A9 /* TopicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicView.h; sourceTree = "<group>"; };
+		D0A51D9A15DD20DC00D4D1A9 /* TopicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 		D048107F159910AA003FF529 = {
 			isa = PBXGroup;
 			children = (
-				D03586501806D4050096CB43 /* Icon.png */,
+				D032CA2918115C6400BBC541 /* Icon.png */,
 				D04810A715991116003FF529 /* ReadMe.rtf */,
 				D0481094159910AA003FF529 /* Classes */,
 				D048108D159910AA003FF529 /* Frameworks */,
@@ -94,7 +94,7 @@
 		D048108B159910AA003FF529 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D048108A159910AA003FF529 /* CD 2 1-M.app */,
+				D048108A159910AA003FF529 /* CD 3 M-M.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,8 +113,6 @@
 		D0481094159910AA003FF529 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D02FB27115B57E88005F1A8B /* ArtistList.h */,
-				D02FB27215B57E88005F1A8B /* ArtistList.m */,
 				D048109D159910AA003FF529 /* AppDelegate.h */,
 				D048109E159910AA003FF529 /* AppDelegate.m */,
 				D0481095159910AA003FF529 /* Supporting Files */,
@@ -124,12 +122,14 @@
 				D04810AE1599CAE9003FF529 /* Model.m */,
 				D04810B41599CD72003FF529 /* DataCreator.h */,
 				D04810B51599CD72003FF529 /* DataCreator.m */,
-				D02FB27515B58BB0005F1A8B /* AlbumList.h */,
-				D02FB27615B58BB0005F1A8B /* AlbumList.m */,
-				D02FB27815B5904B005F1A8B /* SongList.h */,
-				D02FB27915B5904B005F1A8B /* SongList.m */,
-				D02FB27F15B59C5D005F1A8B /* SongView.h */,
-				D02FB28015B59C5D005F1A8B /* SongView.m */,
+				D0308F7A15DBEBDB000BCBF1 /* AppList.h */,
+				D0308F7B15DBEBDB000BCBF1 /* AppList.m */,
+				D0308F7E15DBEBEB000BCBF1 /* TopicList.h */,
+				D0308F7F15DBEBEB000BCBF1 /* TopicList.m */,
+				D0308F8915DC0CAF000BCBF1 /* AppView.h */,
+				D0308F8A15DC0CAF000BCBF1 /* AppView.m */,
+				D0A51D9915DD20DC00D4D1A9 /* TopicView.h */,
+				D0A51D9A15DD20DC00D4D1A9 /* TopicView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -137,13 +137,13 @@
 		D0481095159910AA003FF529 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D03586521806D4180096CB43 /* Default-568h@2x.png */,
-				D03586531806D4180096CB43 /* Default.png */,
-				D03586541806D4180096CB43 /* Default@2x.png */,
-				D0481096159910AA003FF529 /* CD 2 1-M-Info.plist */,
+				D032CA2B18115C7A00BBC541 /* Default-568h@2x.png */,
+				D032CA2C18115C7A00BBC541 /* Default.png */,
+				D032CA2D18115C7A00BBC541 /* Default@2x.png */,
+				D0481096159910AA003FF529 /* CD 3 M-M-Info.plist */,
 				D0481097159910AA003FF529 /* InfoPlist.strings */,
 				D048109A159910AA003FF529 /* main.m */,
-				D048109C159910AA003FF529 /* CD 2 1-M-Prefix.pch */,
+				D048109C159910AA003FF529 /* CD 3 M-M-Prefix.pch */,
 				D04810A915991168003FF529 /* MainStoryboard.storyboard */,
 				D04810B11599CB65003FF529 /* ObjectModel.xcdatamodeld */,
 			);
@@ -153,9 +153,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D0481089159910AA003FF529 /* CD 2 1-M */ = {
+		D0481089159910AA003FF529 /* CD 3 M-M */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D04810A2159910AA003FF529 /* Build configuration list for PBXNativeTarget "CD 2 1-M" */;
+			buildConfigurationList = D04810A2159910AA003FF529 /* Build configuration list for PBXNativeTarget "CD 3 M-M" */;
 			buildPhases = (
 				D0481086159910AA003FF529 /* Sources */,
 				D0481087159910AA003FF529 /* Frameworks */,
@@ -165,9 +165,9 @@
 			);
 			dependencies = (
 			);
-			name = "CD 2 1-M";
+			name = "CD 3 M-M";
 			productName = Classes;
-			productReference = D048108A159910AA003FF529 /* CD 2 1-M.app */;
+			productReference = D048108A159910AA003FF529 /* CD 3 M-M.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -179,7 +179,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Seneca College";
 			};
-			buildConfigurationList = D0481084159910AA003FF529 /* Build configuration list for PBXProject "CD 2 1-M" */;
+			buildConfigurationList = D0481084159910AA003FF529 /* Build configuration list for PBXProject "CD 3 M-M" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -191,7 +191,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D0481089159910AA003FF529 /* CD 2 1-M */,
+				D0481089159910AA003FF529 /* CD 3 M-M */,
 			);
 		};
 /* End PBXProject section */
@@ -204,10 +204,10 @@
 				D0481099159910AA003FF529 /* InfoPlist.strings in Resources */,
 				D04810A815991116003FF529 /* ReadMe.rtf in Resources */,
 				D04810AA15991168003FF529 /* MainStoryboard.storyboard in Resources */,
-				D03586511806D4050096CB43 /* Icon.png in Resources */,
-				D03586551806D4180096CB43 /* Default-568h@2x.png in Resources */,
-				D03586561806D4180096CB43 /* Default.png in Resources */,
-				D03586571806D4180096CB43 /* Default@2x.png in Resources */,
+				D032CA2A18115C6400BBC541 /* Icon.png in Resources */,
+				D032CA2E18115C7A00BBC541 /* Default-568h@2x.png in Resources */,
+				D032CA2F18115C7A00BBC541 /* Default.png in Resources */,
+				D032CA3018115C7A00BBC541 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,10 +224,10 @@
 				D04810B01599CAE9003FF529 /* Model.m in Sources */,
 				D04810B31599CB65003FF529 /* ObjectModel.xcdatamodeld in Sources */,
 				D04810B61599CD72003FF529 /* DataCreator.m in Sources */,
-				D02FB27315B57E88005F1A8B /* ArtistList.m in Sources */,
-				D02FB27715B58BB1005F1A8B /* AlbumList.m in Sources */,
-				D02FB27A15B5904B005F1A8B /* SongList.m in Sources */,
-				D02FB28115B59C5D005F1A8B /* SongView.m in Sources */,
+				D0308F7C15DBEBDB000BCBF1 /* AppList.m in Sources */,
+				D0308F8015DBEBEB000BCBF1 /* TopicList.m in Sources */,
+				D0308F8B15DC0CAF000BCBF1 /* AppView.m in Sources */,
+				D0A51D9B15DD20DC00D4D1A9 /* TopicView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,9 +302,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Classes/CD 2 1-M-Prefix.pch";
-				INFOPLIST_FILE = "Classes/CD 2 1-M-Info.plist";
-				PRODUCT_NAME = "CD 2 1-M";
+				GCC_PREFIX_HEADER = "Classes/CD 3 M-M-Prefix.pch";
+				INFOPLIST_FILE = "Classes/CD 3 M-M-Info.plist";
+				PRODUCT_NAME = "CD 3 M-M";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -313,9 +313,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Classes/CD 2 1-M-Prefix.pch";
-				INFOPLIST_FILE = "Classes/CD 2 1-M-Info.plist";
-				PRODUCT_NAME = "CD 2 1-M";
+				GCC_PREFIX_HEADER = "Classes/CD 3 M-M-Prefix.pch";
+				INFOPLIST_FILE = "Classes/CD 3 M-M-Info.plist";
+				PRODUCT_NAME = "CD 3 M-M";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -323,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D0481084159910AA003FF529 /* Build configuration list for PBXProject "CD 2 1-M" */ = {
+		D0481084159910AA003FF529 /* Build configuration list for PBXProject "CD 3 M-M" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D04810A0159910AA003FF529 /* Debug */,
@@ -332,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D04810A2159910AA003FF529 /* Build configuration list for PBXNativeTarget "CD 2 1-M" */ = {
+		D04810A2159910AA003FF529 /* Build configuration list for PBXNativeTarget "CD 3 M-M" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D04810A3159910AA003FF529 /* Debug */,

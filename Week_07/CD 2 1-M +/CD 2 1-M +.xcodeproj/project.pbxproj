@@ -12,10 +12,10 @@
 		D02FB27715B58BB1005F1A8B /* AlbumList.m in Sources */ = {isa = PBXBuildFile; fileRef = D02FB27615B58BB0005F1A8B /* AlbumList.m */; };
 		D02FB27A15B5904B005F1A8B /* SongList.m in Sources */ = {isa = PBXBuildFile; fileRef = D02FB27915B5904B005F1A8B /* SongList.m */; };
 		D02FB28115B59C5D005F1A8B /* SongView.m in Sources */ = {isa = PBXBuildFile; fileRef = D02FB28015B59C5D005F1A8B /* SongView.m */; };
-		D03586591806D6800096CB43 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D03586581806D6800096CB43 /* Icon.png */; };
 		D035865D1806D69C0096CB43 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D035865A1806D69C0096CB43 /* Default-568h@2x.png */; };
 		D035865E1806D69C0096CB43 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D035865B1806D69C0096CB43 /* Default.png */; };
 		D035865F1806D69C0096CB43 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D035865C1806D69C0096CB43 /* Default@2x.png */; };
+		D0452BED181E910300DAD5AC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0452BEC181E910300DAD5AC /* Icon.png */; };
 		D048108F159910AA003FF529 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D048108E159910AA003FF529 /* UIKit.framework */; };
 		D0481091159910AA003FF529 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0481090159910AA003FF529 /* Foundation.framework */; };
 		D0481093159910AA003FF529 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0481092159910AA003FF529 /* CoreGraphics.framework */; };
@@ -44,10 +44,10 @@
 		D02FB27915B5904B005F1A8B /* SongList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongList.m; sourceTree = "<group>"; };
 		D02FB27F15B59C5D005F1A8B /* SongView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongView.h; sourceTree = "<group>"; };
 		D02FB28015B59C5D005F1A8B /* SongView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongView.m; sourceTree = "<group>"; };
-		D03586581806D6800096CB43 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		D035865A1806D69C0096CB43 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D035865B1806D69C0096CB43 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D035865C1806D69C0096CB43 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D0452BEC181E910300DAD5AC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		D048108A159910AA003FF529 /* CD 2 1-M +.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CD 2 1-M +.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D048108E159910AA003FF529 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D0481090159910AA003FF529 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -92,7 +92,7 @@
 		D048107F159910AA003FF529 = {
 			isa = PBXGroup;
 			children = (
-				D03586581806D6800096CB43 /* Icon.png */,
+				D0452BEC181E910300DAD5AC /* Icon.png */,
 				D04810A715991116003FF529 /* ReadMe.rtf */,
 				D0481094159910AA003FF529 /* Classes */,
 				D048108D159910AA003FF529 /* Frameworks */,
@@ -243,10 +243,10 @@
 				D0481099159910AA003FF529 /* InfoPlist.strings in Resources */,
 				D04810A815991116003FF529 /* ReadMe.rtf in Resources */,
 				D04810AA15991168003FF529 /* MainStoryboard.storyboard in Resources */,
-				D03586591806D6800096CB43 /* Icon.png in Resources */,
 				D035865D1806D69C0096CB43 /* Default-568h@2x.png in Resources */,
 				D035865E1806D69C0096CB43 /* Default.png in Resources */,
 				D035865F1806D69C0096CB43 /* Default@2x.png in Resources */,
+				D0452BED181E910300DAD5AC /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
