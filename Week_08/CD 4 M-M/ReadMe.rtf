@@ -1,0 +1,123 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf390
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs28 \cf0 \
+This is the "CD 4 M-M" example app. \
+\
+It was created with Xcode 4.4 for iOS 5.1 SDK in August 2012.\
+\
+This is based on the CD 3 M-M example app. It does NOT add any functionality. \
+Instead, it shows you how to use a "custom managed object class" for your entities. \
+\
+There are (two? three?) benefits to doing this:\
+1. The custom subclasses include predictably-named accessor methods for the subclass's properties\
+2. They also include property declarations for the entity's attributes, which simplifies your code\
+\
+How do you do this? Use Xcode. See this link:\
+\
+In summary:\
+1. Show the data model\
+2. Select one or more entities for which you want to create a managed object class\
+3. On the Editor menu, choose Create NSManagedObject Subclass...\
+\
+After you do this, you will notice that they are visible in the Project Navigator. They are placed in a hierarchy just below the data model. \
+\
+For best results, add #import statements to your Model.h class for each new entity subclass. Then you can reference the new classes from everywhere.\
+\
+Compare the "3" example app with this "4" example app. Look in these places for the differences:\
+> Model.h and .m - object creation methods \
+> DataCreator.m - simplified syntax, and accessor methods for the collection properties\
+> ? FRC\
+> ...List and ...View controllers - simplified syntax\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+~~~~~~~~~~ \
+\
+The purpose of CD 3 M-M is to introduce a many-to-many example. \
+This is a read-only app, and its initial data gets created when the app launches for the first time. \
+It also combines a tab bar style interface with a nav style interface. \
+\
+Here's how the app was created:\
+\
+The Classes app "template" was copied and renamed.\
+\
+Storyboard - drag nav controller to the design surface; it creates a nav controller and a table view controller. Rename the table view controller nav bar title to "Apps".\
+Storyboard - do it again. Rename the table view controller nav bar title to "Topics".\
+Storyboard - click/select the Apps nav controller. Command+click the Topics nav controller. On the Editor menu, choose Embed In > Tab Bar Controller.\
+Storyboard - on each of the table view controllers, change the tab bar item title. Also, change the cell configuration to "Subtitle", and add a cell identifier.\
+\
+At this point in time, the app should run, and enable you to switch between tabs. \
+\
+Continue by adding a data model. There are two entities, App and Topic. They have an optional to-many relationship with each other. \
+\
+Edit the model object. Add methods that will enable you to create new App and Topic objects. Edit the init method to create new data.\
+\
+Add a fetched results controller for App objects. Sort by week, then sequence. \
+\
+Edit the data creator. Add statements that creates new objects. Start by creating some App objects (which will not have any relations). (Later, we'll create some Topic objects.) \
+\
+Create the table view controllers for AppList and TopicList. Create model properties for both. Go back to the storyboard and set the identities of the table view controllers there to match the just-added controllers.\
+\
+Edit AppList. Configure it to show the apps. Suggested cell format - "detail":\
+Line 1 - Week number - Sequence number - App name\
+Line 2 - Theme\
+\
+Edit the app delegate.\
+\
+\
+\
+\
+Also new in this example - using section headers (week number)\
+\
+\
+\
+Fix...\
+Add the code to the model that will handle first launch\
+Make the app docs dir a private method\
+To the frc template, fix _cdStack and retain\
+\
+\
+\
+\
+(add scene(s) and segue(s)) \
+\
+\
+\
+\
+~~~~~ \
+\
+How to use this project as a "template" for your own...\
+1) Duplicate\
+2) Rename the project\
+3) Rename the scheme\
+\
+1) Duplicate...\
+In Finder, select this project's folder\
+Command+D to duplicate\
+Then, rename the folder to your desired name\
+\
+2) Rename the project...\
+Open the project file in Xcode\
+In the Project Navigator, select the project file (it has a blue icon)\
+Press the tab key, and type your new name\
+You will be prompted through the rename procedure\
+\
+3) Rename the scheme...\
+Click the scheme (which will still display "Classes"), and choose Manage Schemes...\
+Select the scheme (on the list), and then press the tab key until you are able to edit the name of the scheme\
+Type the new name (to match the new name for the project) \
+\
+~~~~~ \
+\
+Next...\
+}
