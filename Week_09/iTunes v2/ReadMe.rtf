@@ -1,0 +1,148 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red255\green0\blue0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs28 \cf0 \
+This is the "iTunes v2" example app.\
+\
+It was created with Xcode 4.5 for iOS 5.1 SDK in October 2012.\
+\
+The purpose of iTunes v2 is to enable a user to search music in the iTunes Store.\
+The user is allowed to enter a search term for:\
+\pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\pardirnatural
+\ls1\ilvl0\cf0 {\listtext	\'95	}Artist\
+{\listtext	\'95	}Album\
+{\listtext	\'95	}Song\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 At least one search term MUST be provided.\
+The user is allowed to enter one, two, or three search terms. \
+\
+~~~~~ \
+\
+In this ReadMe...\
+> How the app is coded\
+> Queries and results\
+\
+~~~~~ \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\b \cf0 How this app is coded
+\b0 \
+\
+In the "search" controller, the user's input is gathered.\
+Then, it calls a method in the model object. \
+The method builds a URL string, based on the user's input.\
+Then, the web service is called, results are stored, and the table view is re-loaded.\
+\
+The table view's content is customized, based on the kind of results that are returned.\
+\
+~~~~~ \
+\
+
+\b Queries and results
+\b0 \
+\
+There are 7 queries that we have to worry about\'85\
+Any one (3 possible)\
+Any two (3 possible)\
+All three\
+\
+~~~~~~~~~~ \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\b \cf2 Any one\'85
+\b0 \cf0 \
+\
+Artist - yes\
+Album - no\
+Song - no\
+All works by the artist \
+https://itunes.apple.com/search?term=the+rolling+stones&limit=15\
+\
+Artist - no\
+Album - no\
+Song - yes\
+Specific song (from any artist on any album)\
+https://itunes.apple.com/search?term=under+my+thumb&entity=song\
+\
+
+\b \cf2 Any two\'85
+\b0 \cf0 \
+\
+Artist - yes\
+Album - yes\
+Song - no\
+Specific album by the artist\
+https://itunes.apple.com/search?term=the+rolling+stones+exile+on+main&entity=album&limit=15\
+\
+Artist - no\
+Album - yes\
+Song - yes\
+Specific song on a specific album\
+https://itunes.apple.com/search?term=hot+rocks+under+my+thumb&entity=song\
+\
+Artist - yes\
+Album - no\
+Song - yes\
+Specific song by an artist\
+https://itunes.apple.com/search?term=rolling+stones+under+my+thumb&entity=song\
+\
+
+\b \cf2 All three\'85
+\b0 \cf0 \
+\
+Artist - yes\
+Album - yes\
+Song - yes\
+Specific song on a specific album by the artist\
+https://itunes.apple.com/search?term=the+rolling+stones+hot+rocks+thumb&entity=song\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\b \cf0 wrapperType = artist
+\b0 \
+artistId = <number>\
+artistName = ADELE\
+primaryGenreName = Pop\
+artistLinkUrl = <link>\
+\
+
+\b wrapperType = collection
+\b0 \
+collectionId = <number>\
+artistName = ADELE\
+collectionName = 21\
+releaseDate = <date>\
+primaryGenreName = Pop\
+\
+
+\b wrapperType = track
+\b0 \
+trackId = <number>\
+artistName = ADELE\
+collectionName = 21\
+trackName = Rolling in the Deep\
+releaseDate = <date>\
+primaryGenreName = Pop\
+\
+Other queries...\
+\
+Extract the collectionId, which is the album identifier\
+"artistId":1249595, "collectionId":368520559\
+\
+Info about the album\
+https://itunes.apple.com/lookup?id=368520559\
+\
+Songs on an album\
+https://itunes.apple.com/lookup?id=368520559&entity=song\
+\
+Songs by an artist\
+https://itunes.apple.com/lookup?id=1249595&entity=song&limit=15\
+\
+~~~~~ \
+}
